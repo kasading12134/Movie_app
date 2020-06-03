@@ -1,7 +1,6 @@
-.movies .movie__data{
+.movies .movie{
     background-color: white;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     font-size: 300;
     padding: 20px;
     border-radius: 5px;
@@ -11,15 +10,15 @@
                 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
 
-/* .movies .movie__data li{
+.movies .movie a {
     display: grid;
     grid-template-columns: minmax(150px, 1fr) 2fr;
     grid-gap: 20px;
     text-decoration: none;
     color: inherit;
-} */
+  }
 
-.movie__data img {
+.movie img {
     position: relative;
     top: -50px;
     max-width: 150px;
